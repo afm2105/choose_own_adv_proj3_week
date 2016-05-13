@@ -53,9 +53,21 @@ if (forkInRoad == 'left'){
             alert("That's incorrect. Now you will fall into a coma.");
           }
       }
-        
-
-    }
+    else if (rightPathPrompt == 3) {
+        var rigthPath3 = prompt("What state is New York City located in?");
+          if (rigthPath3 == "new york"|| rigthPath3 == "New York") {
+            alert(" That's correct. Go 5 miles north, then 2 miles east. You will find somehting amazing.");
+            alert(" You go 5 miles north and then 2 miles east. You find... a time machine.");
+          }
+          else {
+            alert("That's incorrect. Now you will fall into a coma.");
+          }
+    // else if (rightPathPrompt == 4){
+    //   var rigthPath4 = prompt("")
+    // }
+    // }
+    //
+    // }
 
 
 
