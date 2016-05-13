@@ -62,12 +62,22 @@ if (forkInRoad == 'left'){
           else {
             alert("That's incorrect. Now you will fall into a coma.");
           }
-    // else if (rightPathPrompt == 4){
-    //   var rigthPath4 = prompt("")
-    // }
-    // }
-    //
-    // }
+      } else if  (rightPathPrompt == 4){
+      var rightPath4 = prompt("What sport is Lebron James best known for playing?");
+        if (rightPath4 == "basketball") {
+          alert("That's correct. Go 7 miles south, then 2 miles west. You will find something interesting.");
+          alert("You go 7 miles south and then 2 miles west. You find ... a portal to another dimesnion.");
+        }
+        else {
+          alert("That's incorrect. Now you will fall into a coma.");
+        }
+    }
+  }
+  // question 4 gets asked, but not alerts show up afterwards
+
+
+
+
 
 
 
