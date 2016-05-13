@@ -30,6 +30,10 @@ if (forkInRoad == 'left'){
     else{
       alert("That's incorrect. You die now.");
     }
+    var lastQuestion1 = prompt("The game is over. How many stars would you give it? Please enter 1,2,3,4, or 5.");
+    for (var i =0; i<lastQuestion1; i ++) {
+      console.log("Thanks for playing!");
+    }
   }
 }
   else if (forkInRoad == "right") {
@@ -78,30 +82,3 @@ if (forkInRoad == 'left'){
     }
   }
   }
-
-
-
-
-
-
-
-
-        // }
-      // }
-
-
-
-
-  // else if (rightPath1 == 2) {
-  //           var rightPath2 = parseint(prompt("What is half of 10.8?"));
-  //             if (rightPath2 == 5) {
-  //               alert("That's correct. Go west for 4 miles and you will find something mysterious.");
-  //               alert("You go west for 4 mils and you find ... a locked treasure chest.");
-  //             }
-  //         }
-  //     }
-  // }
-
-
-// }
-// }
