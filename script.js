@@ -43,7 +43,22 @@ if (forkInRoad == 'left'){
             alert("That's incorrect. Now you will fall into a coma.");
           }
         }
+
+    else if (rightPathPrompt == 2){
+          var rightPath2 = prompt("How many fingers does a human hand usually have?");
+            if (rightPath2 == "five" || rightPath2 == 5) {
+            alert("That's correct. Go 5 miles east and you will find something very valuable.");
+            alert("You go east for 5 miles and find ... a locked treasure chest.");
+          }   else {
+            alert("That's incorrect. Now you will fall into a coma.");
+          }
       }
+        
+
+    }
+
+
+
         // }
       // }
 
