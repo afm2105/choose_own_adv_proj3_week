@@ -71,9 +71,14 @@ if (forkInRoad == 'left'){
         else {
           alert("That's incorrect. Now you will fall into a coma.");
         }
+
+    var lastQuestion2 = prompt("The game is over. How many stars would you give it? Please enter 1,2,3,4, or 5.");
+    for (var i =0; i<lastQuestion2; i ++) {
+      console.log("Thanks for playing!");
     }
   }
-  // question 4 gets asked, but not alerts show up afterwards
+  }
+
 
 
 
